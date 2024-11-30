@@ -13,36 +13,3 @@ Dynamic Menu: Update your offerings with seasonal or promotional items easily.
 Frontend: Vanilla JavaScript for a responsive and user-friendly interface.
 Backend: Node.js with Express for robust API handling.
 
-🔧 Installation & Setup
-Clone this repository:
-git clone https://github.com/motasembg/smartbrew.git
-
-Navigate to the project directory:
-cd smartbrew
-
-Install dependencies for both frontend and backend:
-npm install
-cd frontend && npm install
-
-Set up your environment variables in .env files for backend and frontend.
-Run the development servers:
-npm run dev
-
-Contribution Guidelines
-We welcome contributions to SmartBrew! Follow these steps to contribute:
-
-Fork the repository.
-Create a feature branch:
-git checkout -b feature/your-feature-name
-
-Commit your changes:
-git commit -m "Add your feature"
-
-Push to your branch and create a pull request.
-
-📧 Contact
-For questions or feedback, feel free to reach out:
-
-Email: moatsmbilah.abogsysa@gmail.com
-GitHub: motasembg
-
