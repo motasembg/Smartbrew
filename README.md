@@ -13,13 +13,6 @@ Dynamic Menu: Update your offerings with seasonal or promotional items easily.
 Frontend: Vanilla JavaScript for a responsive and user-friendly interface.
 Backend: Node.js with Express for robust API handling.
 
-📂 Project Structure
-smartbrew/
-├── frontend/          # Frontend application files
-├── backend/           # Backend API and server logic
-├── docs/              # Documentation and resources
-└── README.md          # This file
-
 🔧 Installation & Setup
 Clone this repository:
 git clone https://github.com/motasembg/smartbrew.git
