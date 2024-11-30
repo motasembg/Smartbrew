@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <header class="headerMain">
+        <nav class="navbar">
+            <a href="#" class="logo">Coffee<span>.</span></a>
+            <ul class="menu-links">
+                <i id="close-menu-btn" class="fa-solid fa-xmark"></i>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Testimonals</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            <i id="menu-btn" class="fa-solid fa-bars"></i>
+        </nav>
+    </header>
+    <section class="hero-section">
+        <div class="content">
+            <h1>Start Your Day With <br> <span id="typed"></span> </h1>
+            <p>Coffe is a popular and beloved beverage enjoyed by people around the world. <br> your senses with a steaming cup of liquid motivation.</p>
+            <button>Order Now</button>
+        </div>
+    </section>
+
+
+<script>
+      var typed = new Typed('#typed', {
+    // Waits 1000ms after typing "First"
+    strings: ['Smooth Sip', 'Fresh Coffee','Morning ', 'Sweet Comfort'],
+    typeSpeed: 70,loop: true,loopCount: Infinity,
+  });
+</script>
+    <script src="./coffee.js"></script>
+   
+</body>
+</html>
